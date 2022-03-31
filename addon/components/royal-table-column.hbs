@@ -1,9 +1,17 @@
 {{#if this.isHead}}
-  <th>{{@name}}</th>
+  {{#if (has-block "head")}}
+    <th>{{yield to="head"}}</th>
+  {{else}}
+    <th>{{@name}}</th>
+  {{/if}}
 {{/if}}
 
 {{#if this.isBody}}
-  <td>{{get @data @prop}}</td>
+  {{#if (has-block)}}
+    <td>{{yield}}</td>
+  {{else}}
+    <td>{{get @data @prop}}</td>
+  {{/if}}
 {{/if}}
 
 {{!-- {{yield}} --}}

@@ -1,4 +1,8 @@
-<RoyalTable @data={{this.data}} as |Column|>
+<RoyalTable @data={{this.data}} as |Column rowData|>
   <Column @name="First name" @prop="firstName" />
   <Column @name="Last name" @prop="lastName" />
+  <Column>
+    <:head>Age from now</:head>
+    <:default>{{rowData.age}} years age</:default>
+  </Column>
 </RoyalTable>
