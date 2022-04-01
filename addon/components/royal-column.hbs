@@ -1,6 +1,10 @@
 {{#if this.isHead}}
   {{! template-lint-disable no-invalid-interactive }}
-  <th role={{if this.sortable 'button'}} {{on 'click' this.handleClickHead}}>
+  <th
+    role={{if this.sortable 'button'}}
+    {{on 'click' this.handleClickHead}}
+    {{on 'click' this.handleSort}}
+  >
     {{#if (has-block 'head')}}
       {{yield to='head'}}
     {{else}}

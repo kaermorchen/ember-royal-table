@@ -28,4 +28,11 @@ export default class RoyalColumnComponent extends Component {
       this.args.onClickHead(this.args.prop, this, e);
     }
   }
+
+  @action
+  handleSort(e) {
+    if (this.args.sortable && typeof this.args.onSort === 'function') {
+      this.args.onSort(this.args.prop, this, e);
+    }
+  }
 }
