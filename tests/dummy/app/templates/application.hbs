@@ -14,7 +14,7 @@
 <RoyalTable
   @data={{this.sortedData}}
   @sortingProp={{this.sortingProp}}
-  @onSort={{this.onSort}}
+  @onClickHead={{this.onSort}}
 as |Column|>
   <Column @name="First name" @prop="firstName" @sortable={{true}}/>
   <Column @name="Last name" @prop="lastName" @sortable={{true}}/>

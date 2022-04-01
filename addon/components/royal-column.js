@@ -11,36 +11,21 @@ export default class RoyalColumnComponent extends Component {
   }
 
   get isSorted() {
-    return this.args.sortingProp === this.args.prop;
+    return this.args.sortingProp && (this.isAscSorted || this.isDescSorted);
   }
 
-  @action
-  handleSort() {
-    if (typeof this.args.onSort !== 'function') {
-      return;
-    }
+  get isAscSorted() {
+    return this.args.sortingProp === `${this.args.prop}:asc`;
+  }
 
-    let key = null;
-
-    switch (this.args.sortingProp) {
-      case `${this.args.prop}:asc`:
-        key = `${this.args.prop}:desc`;
-        break;
-      case `${this.args.prop}:desc`:
-        key = null;
-        break;
-      default:
-        key = `${this.args.prop}:asc`;
-        break;
-    }
-
-    this.args.onSort(key);
+  get isDescSorted() {
+    return this.args.sortingProp === `${this.args.prop}:desc`;
   }
 
   @action
   handleClickHead(e) {
-    if (typeof this.args.onClick === 'function') {
-      this.args.onClick(this, e);
+    if (typeof this.args.onClickHead === 'function') {
+      this.args.onClickHead(this.args.prop, this, e);
     }
   }
 }

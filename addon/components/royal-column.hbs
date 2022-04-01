@@ -1,28 +1,30 @@
 {{#if this.isHead}}
-  {{!-- template-lint-disable no-invalid-interactive --}}
-  <th
-    role={{if this.sortable "button"}}
-    {{on "click" this.handleClickHead}}
-  >
-    {{#if (has-block "head")}}
-      {{yield to="head"}}
+  {{! template-lint-disable no-invalid-interactive }}
+  <th role={{if this.sortable 'button'}} {{on 'click' this.handleClickHead}}>
+    {{#if (has-block 'head')}}
+      {{yield to='head'}}
     {{else}}
       {{@name}}
     {{/if}}
-
     {{#if @sortable}}
-      <button type="button" {{on "click" this.handleSort}}>
-        ({{@sortingProp}})
-        {{!-- {{#if }}
-          ⬍
-          🠗
-          🠕
-        {{/if}} --}}
-      </button>
+      {{!-- TODO: add ensure-safe-component --}}
+      {{#let
+        (if
+          @sortingIconComponent
+          (component @sortingIconComponent)
+          (component 'royal-table/column/sorting-icon')
+        ) as |SortingIcon|
+      }}
+        <SortingIcon
+          @sortable={{@sortable}}
+          @isSorted={{this.isSorted}}
+          @isAscSorted={{this.isAscSorted}}
+          @isDescSorted={{this.isDescSorted}}
+        />
+      {{/let}}
     {{/if}}
   </th>
 {{/if}}
-
 {{#if this.isBody}}
   <td>
     {{#if (has-block)}}

@@ -1,7 +1,7 @@
 <table class="royal-table" ...attributes>
   <thead>
     <tr>
-      {{yield (component "royal-column" place="head" onSort=@onSort sortingProp=@sortingProp)}}
+      {{yield (component "royal-column" place="head" onClickHead=@onClickHead sortingProp=@sortingProp sortingIconComponent=@sortingIconComponent)}}
     </tr>
   </thead>
   <tbody>

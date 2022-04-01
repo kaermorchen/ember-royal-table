@@ -4,7 +4,7 @@ import { compare } from '@ember/utils';
 import { tracked } from '@glimmer/tracking';
 
 export default class ApplicationController extends Controller {
-  @tracked sortingProp = 'firstName';
+  @tracked sortingProp = 'firstName:asc';
 
   data = [
     {
@@ -54,12 +54,18 @@ export default class ApplicationController extends Controller {
       : sortedData.reverse();
   }
 
-  get sortedColumns() {
-    return this.columns.sort((a, b) => b.order - a.order);
-  }
+  // get sortedColumns() {
+  //   return this.columns.sort((a, b) => b.order - a.order);
+  // }
 
   @action
-  onSort(prop) {
-    this.sortingProp = prop;
+  onSort(newSortingProp) {
+    if (newSortingProp !== this.sortingProp.split(':')[0]) {
+      this.sortingProp = `${newSortingProp}:asc`;
+    } else if (`${newSortingProp}:asc` === this.sortingProp) {
+      this.sortingProp = `${newSortingProp}:desc`;
+    } else if (`${newSortingProp}:desc` === this.sortingProp) {
+      this.sortingProp = `${newSortingProp}:asc`;
+    }
   }
 }
