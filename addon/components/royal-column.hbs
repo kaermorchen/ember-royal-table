@@ -1,9 +1,24 @@
 {{#if this.isHead}}
-  <th>
+  {{!-- template-lint-disable no-invalid-interactive --}}
+  <th
+    role={{if this.sortable "button"}}
+    {{on "click" this.handleClickHead}}
+  >
     {{#if (has-block "head")}}
       {{yield to="head"}}
     {{else}}
       {{@name}}
+    {{/if}}
+
+    {{#if @sortable}}
+      <button type="button" {{on "click" this.handleSort}}>
+        ({{@sortingProp}})
+        {{!-- {{#if }}
+          ⬍
+          🠗
+          🠕
+        {{/if}} --}}
+      </button>
     {{/if}}
   </th>
 {{/if}}

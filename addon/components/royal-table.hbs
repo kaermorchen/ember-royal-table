@@ -1,13 +1,13 @@
-<table>
+<table class="royal-table" ...attributes>
   <thead>
     <tr>
-      {{yield (component "royal-column" place="head")}}
+      {{yield (component "royal-column" place="head" onSort=@onSort sortingProp=@sortingProp)}}
     </tr>
   </thead>
   <tbody>
     {{#each @data as |item index|}}
       <tr>
-        {{yield (component "royal-column" data=item  place="body") item index}}
+        {{yield (component "royal-column" place="body" data=item) item index}}
       </tr>
     {{/each}}
   </tbody>
