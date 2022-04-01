@@ -1,4 +1,4 @@
-royal-table
+ember-royal-table
 ==============================================================================
 
 [Short description of the addon.]
@@ -16,7 +16,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install royal-table
+ember install ember-royal-table
 ```
 
 

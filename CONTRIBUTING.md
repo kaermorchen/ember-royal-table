@@ -3,7 +3,7 @@
 ## Installation
 
 * `git clone <repository-url>`
-* `cd royal-table`
+* `cd ember-royal-table`
 * `npm install`
 
 ## Linting

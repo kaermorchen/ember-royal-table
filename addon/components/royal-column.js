@@ -1,6 +1,6 @@
 import Component from '@glimmer/component';
 
-export default class RoyalTableColumnComponent extends Component {
+export default class RoyalColumnComponent extends Component {
   get isHead() {
     return this.args.place === 'head';
   }

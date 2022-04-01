@@ -5,13 +5,13 @@ export default class ApplicationController extends Controller {
     {
       firstName: 'Tony',
       lastName: 'Stark',
-      nickName: 'IronMan',
+      nickName: 'Iron Man',
       age: 50,
     },
     {
-      firstName: 'Piter',
+      firstName: 'Peter',
       lastName: 'Parker',
-      nickName: 'Spiderman',
+      nickName: 'Spider-Man',
       age: 25,
     },
   ];
