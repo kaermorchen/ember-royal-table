@@ -12,7 +12,7 @@
       @apply border-b border-gray;
 
       th {
-        @apply px-4 py-3 text-dark font-normal leading-none whitespace-nowrap;
+        @apply px-4 py-4 text-dark font-normal leading-none whitespace-nowrap;
 
         &[type="button"] {
           @apply cursor-pointer select-none;

@@ -16,11 +16,13 @@
     />
   </Column>
   <Column @name="Name" @prop="name" @sortable={{true}}/>
-  <Column @name="Gender" @prop="gender"/>
-  <Column @name="Franchise" @prop="franchise"/>
+  <Column @name="Gender" @prop="gender" @sortable={{true}}/>
+  <Column @name="Franchise" @prop="franchise" @sortable={{true}}/>
   <Column @name="Rarity" @prop="rarity" @sortable={{true}}/>
   <Column @name="HP" @prop="life.amount" @sortable={{true}}/>
-  <Column @name="Mana" @prop="energy.amount" @sortable={{true}}/>
+  <Column @name="Energy" @prop="energy.amount" @sortable={{true}}/>
   <Column @name="Descriptors" @prop="stringDescriptors"/>
-  <Column @name="Release date" @prop="releaseDate" @sortable={{true}}/>
+  <Column @prop="releaseDate" @sortable={{true}}>
+    <:head><MdIcon @icon="calendar" @size={{18}}/>Release date</:head>
+  </Column>
 </RoyalTable>
