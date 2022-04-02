@@ -1,23 +1,21 @@
-<h1 class="text-2xl mb-4">Royal Table</h1>
-
-<h2 class="text-xl mb-2">Simple table</h2>
-<RoyalTable class="mb-4" @data={{this.data}} as |Column rowData|>
-  <Column @name="First name" @prop="firstName" />
-  <Column @name="Last name" @prop="lastName" />
-  <Column>
-    <:head>Age (years)</:head>
-    <:default>{{rowData.age}}</:default>
-  </Column>
-</RoyalTable>
-
-<h2 class="text-xl mb-2">Sorted table</h2>
+<h1 class="text-2xl mb-4">
+  Royal Table
+</h1>
 <RoyalTable
-  class="mb-4"
-  @data={{this.sortedData}}
+  @data={{this.sortedModel}}
   @sortingProp={{this.sortingProp}}
-  @onSort={{this.onSort}}
-as |Column|>
-  <Column @name="First name" @prop="firstName" @sortable={{true}}/>
-  <Column @name="Last name" @prop="lastName"/>
-  <Column @name="Age" @prop="age" @sortable={{true}}/>
+  @onSort={{this.onSort}} as |Column rowData|
+>
+  <Column @name="Avatar">
+    <img
+      width="64"
+      height="64"
+      src={{rowData.avatarURL}}
+      alt={{rowData.hyperlinkId}}
+      loading="lazy"
+    />
+  </Column>
+  <Column @name="Name" @prop="name" @sortable={{true}}/>
+  <Column @name="Franchise" @prop="franchise"/>
+  <Column @name="Release date" @prop="releaseDate" @sortable={{true}}/>
 </RoyalTable>

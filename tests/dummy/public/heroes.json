@@ -1,0 +1,3125 @@
+[
+  {
+    "unitId": "HeroAbathur",
+    "name": "Abathur",
+    "attributeId": "Abat",
+    "franchise": "Starcraft",
+    "gender": "Neutral",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "Ganker",
+      "Helper",
+      "InstantTraveler",
+      "RoleSpecialist",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 685,
+      "scale": 0.04,
+      "regenRate": 1.4257,
+      "regenScale": 0.04
+    },
+    "ratings": {
+      "complexity": 9,
+      "damage": 3,
+      "survivability": 1,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_infestor.png"
+  },
+  {
+    "unitId": "HeroAlarak",
+    "name": "Alarak",
+    "attributeId": "Alar",
+    "franchise": "Starcraft",
+    "gender": "Male",
+    "releaseDate": "2016-09-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "RoleCaster",
+      "SoloLaner"
+    ],
+    "life": {
+      "amount": 1950,
+      "scale": 0.04,
+      "regenRate": 4.0585,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 8,
+      "damage": 7,
+      "survivability": 6,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_alarak.png"
+  },
+  {
+    "unitId": "HeroAlexstrasza",
+    "name": "Alexstrasza",
+    "attributeId": "Alex",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2017-11-14",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Helper",
+      "RoleSupport"
+    ],
+    "life": {
+      "amount": 1698,
+      "scale": 0.04,
+      "regenRate": 8.8437,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 3,
+      "survivability": 4,
+      "utility": 6
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_alexstrasza.png"
+  },
+  {
+    "unitId": "HeroAmazon",
+    "name": "Cassia",
+    "attributeId": "Amaz",
+    "franchise": "Diablo",
+    "gender": "Female",
+    "releaseDate": "2017-04-04",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "RoleAutoAttacker",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1660,
+      "scale": 0.04,
+      "regenRate": 3.457,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 7,
+      "survivability": 6,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_d2amazonf.png"
+  },
+  {
+    "unitId": "HeroAna",
+    "name": "Ana",
+    "attributeId": "HANA",
+    "franchise": "Overwatch",
+    "gender": "Female",
+    "releaseDate": "2017-09-26",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "AllyHealer",
+      "ChanneledAutoAttacker",
+      "EnergyImportant",
+      "Helper",
+      "Roamer",
+      "RoleSupport"
+    ],
+    "life": {
+      "amount": 1598,
+      "scale": 0.04,
+      "regenRate": 3.3281,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 3,
+      "survivability": 3,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_ana.png"
+  },
+  {
+    "unitId": "HeroAnduin",
+    "name": "Anduin",
+    "attributeId": "Andu",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2019-04-30",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Helper",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 1665,
+      "scale": 0.04,
+      "regenRate": 3.4687,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 2,
+      "survivability": 4,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_anduin.png"
+  },
+  {
+    "unitId": "HeroAnubarak",
+    "name": "Anubarak",
+    "attributeId": "Anub",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-10-07",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 2150,
+      "scale": 0.04,
+      "regenRate": 4.4804,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 4,
+      "survivability": 7,
+      "utility": 6
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_anubarak.png"
+  },
+  {
+    "unitId": "HeroArtanis",
+    "name": "Artanis",
+    "attributeId": "Arts",
+    "franchise": "Starcraft",
+    "gender": "Male",
+    "releaseDate": "2015-10-27",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "RoleAutoAttacker",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 2490,
+      "scale": 0.04,
+      "regenRate": 5.1875,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 6,
+      "survivability": 8,
+      "utility": 6
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_artanis.png"
+  },
+  {
+    "unitId": "HeroArthas",
+    "name": "Arthas",
+    "attributeId": "Arth",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 2860,
+      "scale": 0.04,
+      "regenRate": 5.957,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 6,
+      "survivability": 8,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_arthas.png"
+  },
+  {
+    "unitId": "HeroAuriel",
+    "name": "Auriel",
+    "attributeId": "Auri",
+    "franchise": "Diablo",
+    "gender": "Female",
+    "releaseDate": "2016-08-09",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "AllyHealer",
+      "Helper",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 1700,
+      "scale": 0.04,
+      "regenRate": 3.539,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 475,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 8,
+      "damage": 3,
+      "survivability": 4,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_auriel.png"
+  },
+  {
+    "unitId": "HeroAzmodan",
+    "name": "Azmodan",
+    "attributeId": "Azmo",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2014-10-14",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Rare",
+    "descriptors": [
+      "EnergyImportant",
+      "RoleSpecialist",
+      "SoloLaner",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 2464.2,
+      "scale": 0.04,
+      "regenRate": 5.1328,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 3,
+      "survivability": 7,
+      "utility": 6
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_azmodan.png"
+  },
+  {
+    "unitId": "HeroBarbarian",
+    "name": "Sonya",
+    "attributeId": "Barb",
+    "franchise": "Diablo",
+    "gender": "Female",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "Ganker",
+      "MercKiller",
+      "Overconfident",
+      "RoleAutoAttacker",
+      "RoleCaster",
+      "SoloLaner",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 2450,
+      "scale": 0.04,
+      "regenRate": 5.1054,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 100,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 7,
+      "survivability": 6,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_femalebarbarian.png"
+  },
+  {
+    "unitId": "HeroButcher",
+    "name": "TheButcher",
+    "attributeId": "Butc",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2015-06-30",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "MercKiller",
+      "Overconfident",
+      "RoleAutoAttacker",
+      "SoloLaner"
+    ],
+    "life": {
+      "amount": 2154,
+      "scale": 0.045,
+      "regenRate": 4.4882,
+      "regenScale": 0.045
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 3,
+      "damage": 9,
+      "survivability": 5,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_butcher.png"
+  },
+  {
+    "unitId": "HeroChen",
+    "name": "Chen",
+    "attributeId": "Chen",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-09-09",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "BodyBlocker",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "RoleTank",
+      "SoloLaner"
+    ],
+    "life": {
+      "amount": 2473,
+      "scale": 0.04,
+      "regenRate": 5.1523,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 100,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 8,
+      "damage": 5,
+      "survivability": 8,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_chen.png"
+  },
+  {
+    "unitId": "HeroCho",
+    "name": "Chogall",
+    "attributeId": "CCho",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2015-11-17",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "BodyBlocker",
+      "Escaper",
+      "Ganker",
+      "MercKiller",
+      "Overconfident",
+      "RoleTank",
+      "SoloLaner"
+    ],
+    "life": {
+      "amount": 2950,
+      "scale": 0.045,
+      "regenRate": 6.1445,
+      "regenScale": 0.045
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 6,
+      "survivability": 10,
+      "utility": 2
+    },
+    "avatar": "storm_ui_ingame_heroselect_cho.png"
+  },
+  {
+    "unitId": "HeroChromie",
+    "name": "Chromie",
+    "attributeId": "Chro",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2016-05-17",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "EnergyImportant",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1390,
+      "scale": 0.04,
+      "regenRate": 2.8984,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 9,
+      "survivability": 3,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_chromie.png"
+  },
+  {
+    "unitId": "HeroCrusader",
+    "name": "Johanna",
+    "attributeId": "Crus",
+    "franchise": "Diablo",
+    "gender": "Female",
+    "releaseDate": "2015-06-02",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "BodyBlocker",
+      "Overconfident",
+      "RoleTank",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 2625,
+      "scale": 0.04,
+      "regenRate": 5.4687,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 3,
+      "survivability": 10,
+      "utility": 6
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_johanna.png"
+  },
+  {
+    "unitId": "HeroDeathwing",
+    "name": "Deathwing",
+    "attributeId": "DEAT",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2019-12-03",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "BodyBlocker",
+      "Ganker",
+      "HealingAltarGoalDisabled",
+      "InstantTraveler",
+      "Overconfident",
+      "Roamer",
+      "RoleAutoAttacker",
+      "Suicidal",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 2750,
+      "scale": 0.04,
+      "regenRate": 5.7304,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 100,
+      "regenRate": 5
+    },
+    "ratings": {
+      "complexity": 8,
+      "damage": 7,
+      "survivability": 10,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_deathwing.png"
+  },
+  {
+    "unitId": "HeroDeckard",
+    "name": "Deckard",
+    "attributeId": "DECK",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2018-04-24",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Helper",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 1780,
+      "scale": 0.04,
+      "regenRate": 3.707,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 3,
+      "survivability": 7,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_deckard.png"
+  },
+  {
+    "unitId": "HeroDehaka",
+    "name": "Dehaka",
+    "attributeId": "Deha",
+    "franchise": "Starcraft",
+    "gender": "Male",
+    "releaseDate": "2016-03-29",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "RoleTank",
+      "SoloLaner",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 2385,
+      "scale": 0.04,
+      "regenRate": 4.9687,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 6,
+      "survivability": 9,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_dehaka.png"
+  },
+  {
+    "unitId": "HeroDemonHunter",
+    "name": "Valla",
+    "attributeId": "Demo",
+    "franchise": "Diablo",
+    "gender": "Female",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Rare",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "RoleAutoAttacker",
+      "RoleCaster",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1340,
+      "scale": 0.04,
+      "regenRate": 2.793,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 3,
+      "damage": 9,
+      "survivability": 4,
+      "utility": 1
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_demonhunter.png"
+  },
+  {
+    "unitId": "HeroDiablo",
+    "name": "Diablo",
+    "attributeId": "Diab",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Rare",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 2825,
+      "scale": 0.04,
+      "regenRate": 5.8867,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 5,
+      "survivability": 9,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_diablo.png"
+  },
+  {
+    "unitId": "HeroDryad",
+    "name": "Lunara",
+    "attributeId": "Drya",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2015-12-15",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "RoleAutoAttacker",
+      "RoleCaster",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1430,
+      "scale": 0.04,
+      "regenRate": 2.9804,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 8,
+      "survivability": 4,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_lunara.png"
+  },
+  {
+    "unitId": "HeroDVaMech",
+    "name": "DVa",
+    "attributeId": "DVA0",
+    "franchise": "Overwatch",
+    "gender": "Female",
+    "releaseDate": "2017-05-16",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "BodyBlocker",
+      "Escaper",
+      "Overconfident",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 2100,
+      "scale": 0.04,
+      "regenRate": 4.375,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 100,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 4,
+      "survivability": 8,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_dva.png"
+  },
+  {
+    "unitId": "HeroFaerieDragon",
+    "name": "Brightwing",
+    "attributeId": "Faer",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2014-04-15",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Escaper",
+      "Helper",
+      "RoleSupport",
+      "SelfHealer",
+      "SoloLaner"
+    ],
+    "life": {
+      "amount": 1425,
+      "scale": 0.04,
+      "regenRate": 2.9687,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 4,
+      "survivability": 5,
+      "utility": 9
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_faeriedragon.png"
+  },
+  {
+    "unitId": "HeroFalstad",
+    "name": "Falstad",
+    "attributeId": "Fals",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "RoleAutoAttacker",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1365,
+      "scale": 0.04,
+      "regenRate": 2.8437,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 8,
+      "survivability": 4,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_gryphon_rider.png"
+  },
+  {
+    "unitId": "HeroFenix",
+    "name": "Fenix",
+    "attributeId": "FENX",
+    "franchise": "Starcraft",
+    "gender": "Male",
+    "releaseDate": "2018-03-27",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "Escaper",
+      "Ganker",
+      "RoleAutoAttacker",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1140,
+      "scale": 0.04,
+      "regenRate": 2.379,
+      "regenScale": 0.04
+    },
+    "shield": {
+      "amount": 760,
+      "scale": 0.04,
+      "regenDelay": 5,
+      "regenRate": 76,
+      "regenScale": 0.04
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 9,
+      "survivability": 5,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_fenix.png"
+  },
+  {
+    "unitId": "HeroFirebat",
+    "name": "Blaze",
+    "attributeId": "Fire",
+    "franchise": "Starcraft",
+    "gender": "Male",
+    "releaseDate": "2018-01-09",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "RoleTank",
+      "SoloLaner"
+    ],
+    "life": {
+      "amount": 2900,
+      "scale": 0.04,
+      "regenRate": 6.039,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 6,
+      "survivability": 9,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_firebat.png"
+  },
+  {
+    "unitId": "HeroGall",
+    "name": "Gall",
+    "attributeId": "Gall",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2015-11-17",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "GoalsDisabled",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1,
+      "scale": 0,
+      "regenRate": 0,
+      "regenScale": 0
+    },
+    "ratings": {
+      "complexity": 3,
+      "damage": 9,
+      "survivability": 10,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_gall.png"
+  },
+  {
+    "unitId": "HeroGarrosh",
+    "name": "Garrosh",
+    "attributeId": "Garr",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2017-08-08",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 2060,
+      "scale": 0.04,
+      "regenRate": 4.293,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 3,
+      "survivability": 9,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_garrosh.png"
+  },
+  {
+    "unitId": "HeroGenji",
+    "name": "Genji",
+    "attributeId": "Genj",
+    "franchise": "Overwatch",
+    "gender": "Male",
+    "releaseDate": "2017-04-25",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1675,
+      "scale": 0.04,
+      "regenRate": 3.4882,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 8,
+      "survivability": 4,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_genji.png"
+  },
+  {
+    "unitId": "HeroGreymane",
+    "name": "Greymane",
+    "attributeId": "Genn",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2016-01-12",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "RoleAutoAttacker",
+      "RoleCaster",
+      "SoloLaner",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1876,
+      "scale": 0.045,
+      "regenRate": 3.9062,
+      "regenScale": 0.045
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 9,
+      "survivability": 4,
+      "utility": 3
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_genngreymane.png"
+  },
+  {
+    "unitId": "HeroGuldan",
+    "name": "Guldan",
+    "attributeId": "Guld",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2016-07-12",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "RoleCaster",
+      "SoloLaner",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1700,
+      "scale": 0.04,
+      "regenRate": 3.543,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 8,
+      "survivability": 5,
+      "utility": 3
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_guldan.png"
+  },
+  {
+    "unitId": "HeroHanzo",
+    "name": "Hanzo",
+    "attributeId": "Hanz",
+    "franchise": "Overwatch",
+    "gender": "Male",
+    "releaseDate": "2017-12-12",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "RoleAutoAttacker",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1375,
+      "scale": 0.04,
+      "regenRate": 2.8632,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 8,
+      "survivability": 4,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_hanzo.png"
+  },
+  {
+    "unitId": "HeroHogger",
+    "name": "Hogger",
+    "attributeId": "HOGG",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2020-12-01",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "life": {
+      "amount": 2260,
+      "scale": 0.04,
+      "regenRate": 4.711,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 100,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 8,
+      "damage": 7,
+      "survivability": 7,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_hogger.png"
+  },
+  {
+    "unitId": "HeroIllidan",
+    "name": "Illidan",
+    "attributeId": "Illi",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "BodyBlocker",
+      "Escaper",
+      "Ganker",
+      "MercKiller",
+      "Overconfident",
+      "RoleAutoAttacker"
+    ],
+    "life": {
+      "amount": 1725,
+      "scale": 0.04,
+      "regenRate": 3.5898,
+      "regenScale": 0.04
+    },
+    "ratings": {
+      "complexity": 8,
+      "damage": 8,
+      "survivability": 6,
+      "utility": 3
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_illidan.png"
+  },
+  {
+    "unitId": "HeroImperius",
+    "name": "Imperius",
+    "attributeId": "IMPE",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2019-01-08",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "SoloLaner"
+    ],
+    "life": {
+      "amount": 2375,
+      "scale": 0.04,
+      "regenRate": 4.9492,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 6,
+      "survivability": 5,
+      "utility": 6
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_imperius.png"
+  },
+  {
+    "unitId": "HeroJaina",
+    "name": "Jaina",
+    "attributeId": "Jain",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2014-12-02",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "RoleCaster",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1365,
+      "scale": 0.04,
+      "regenRate": 2.8437,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 10,
+      "survivability": 2,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_jaina.png"
+  },
+  {
+    "unitId": "HeroJunkrat",
+    "name": "Junkrat",
+    "attributeId": "Junk",
+    "franchise": "Overwatch",
+    "gender": "Male",
+    "releaseDate": "2017-10-17",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "RoleSpecialist",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1425,
+      "scale": 0.04,
+      "regenRate": 2.9687,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 4,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 7,
+      "survivability": 5,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_junkrat.png"
+  },
+  {
+    "unitId": "HeroKaelthas",
+    "name": "Kaelthas",
+    "attributeId": "Kael",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2015-05-12",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "RoleCaster",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1595,
+      "scale": 0.04,
+      "regenRate": 3.3164,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 9,
+      "survivability": 3,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_kaelthas.png"
+  },
+  {
+    "unitId": "HeroKelThuzad",
+    "name": "KelThuzad",
+    "attributeId": "KelT",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2017-09-05",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "DeadUpdater",
+      "EnergyImportant",
+      "Ganker",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1490,
+      "scale": 0.04,
+      "regenRate": 3.0976,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 8,
+      "survivability": 4,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_kelthuzad.png"
+  },
+  {
+    "unitId": "HeroKerrigan",
+    "name": "Kerrigan",
+    "attributeId": "Kerr",
+    "franchise": "Starcraft",
+    "gender": "Female",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1764,
+      "scale": 0.04,
+      "regenRate": 3.6757,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 8,
+      "survivability": 6,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_kerrigan.png"
+  },
+  {
+    "unitId": "HeroL90ETC",
+    "name": "ETC",
+    "attributeId": "L90E",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Rare",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "RoleTank",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 2280,
+      "scale": 0.04,
+      "regenRate": 4.75,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 3,
+      "damage": 4,
+      "survivability": 9,
+      "utility": 6
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_etc.png"
+  },
+  {
+    "unitId": "HeroLeoric",
+    "name": "Leoric",
+    "attributeId": "Leor",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2015-07-21",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Overconfident",
+      "RoleTank",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 2550,
+      "scale": 0.04,
+      "regenRate": 5.3125,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 4,
+      "survivability": 8,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_leoric.png"
+  },
+  {
+    "unitId": "HeroLiLi",
+    "name": "LiLi",
+    "attributeId": "LiLi",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2014-04-15",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Rare",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Helper",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 1500,
+      "scale": 0.04,
+      "regenRate": 3.125,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 3,
+      "damage": 3,
+      "survivability": 8,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_lili.png"
+  },
+  {
+    "unitId": "HeroLostVikingsController",
+    "name": "LostVikings",
+    "attributeId": "Lost",
+    "franchise": "Classic",
+    "gender": "Male",
+    "releaseDate": "2015-02-10",
+    "speed": 20,
+    "rarity": "Legendary",
+    "life": {
+      "amount": 1,
+      "scale": 0,
+      "regenRate": 0,
+      "regenScale": 0
+    },
+    "ratings": {
+      "complexity": 10,
+      "damage": 7,
+      "survivability": 6,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_lostvikings.png"
+  },
+  {
+    "unitId": "HeroLucio",
+    "name": "Lucio",
+    "attributeId": "Luci",
+    "franchise": "Overwatch",
+    "gender": "Male",
+    "releaseDate": "2017-02-14",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Escaper",
+      "Helper",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 1442,
+      "scale": 0.04,
+      "regenRate": 3,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 3,
+      "survivability": 6,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_lucio.png"
+  },
+  {
+    "unitId": "HeroMaiev",
+    "name": "Maiev",
+    "attributeId": "Maie",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2018-02-06",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "life": {
+      "amount": 2021,
+      "scale": 0.04,
+      "regenRate": 4.211,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 6,
+      "survivability": 7,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_maiev.png"
+  },
+  {
+    "unitId": "HeroMalfurion",
+    "name": "Malfurion",
+    "attributeId": "Malf",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Rare",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Helper",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 1525,
+      "scale": 0.04,
+      "regenRate": 3.1796,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 4,
+      "survivability": 5,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_malfurion.png"
+  },
+  {
+    "unitId": "HeroMalGanis",
+    "name": "MalGanis",
+    "attributeId": "MalG",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2018-10-16",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "BodyBlocker",
+      "Ganker",
+      "Overconfident",
+      "RoleTank",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 2600,
+      "scale": 0.04,
+      "regenRate": 5.414,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 3,
+      "damage": 5,
+      "survivability": 7,
+      "utility": 3
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_malganis.png"
+  },
+  {
+    "unitId": "HeroMalthael",
+    "name": "Malthael",
+    "attributeId": "MALT",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2017-06-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "BodyBlocker",
+      "DeadUpdater",
+      "EnergyImportant",
+      "Ganker",
+      "RoleAutoAttacker",
+      "SoloLaner",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1962,
+      "scale": 0.04,
+      "regenRate": 4.086,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 7,
+      "survivability": 6,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_malthael.png"
+  },
+  {
+    "unitId": "HeroMedic",
+    "name": "LtMorales",
+    "attributeId": "Medi",
+    "franchise": "Starcraft",
+    "gender": "Female",
+    "releaseDate": "2015-10-06",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "AllyHealer",
+      "Helper",
+      "RoleSupport"
+    ],
+    "life": {
+      "amount": 1560,
+      "scale": 0.04,
+      "regenRate": 3.25,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 100,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 3,
+      "survivability": 4,
+      "utility": 9
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_medic.png"
+  },
+  {
+    "unitId": "HeroMedivh",
+    "name": "Medivh",
+    "attributeId": "Mdvh",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2016-06-14",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "Helper",
+      "RoleSpecialist",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1470,
+      "scale": 0.045,
+      "regenRate": 3.0625,
+      "regenScale": 0.045
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 8,
+      "damage": 2,
+      "survivability": 6,
+      "utility": 10
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_medivh.png"
+  },
+  {
+    "unitId": "HeroMeiOW",
+    "name": "Mei",
+    "attributeId": "HMEI",
+    "franchise": "Overwatch",
+    "gender": "Female",
+    "releaseDate": "2020-06-23",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 2625,
+      "scale": 0.04,
+      "regenRate": 5.5703,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 3,
+      "survivability": 8,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_meiow.png"
+  },
+  {
+    "unitId": "HeroMephisto",
+    "name": "Mephisto",
+    "attributeId": "MEPH",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2018-09-04",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "EnergyImportant",
+      "Overconfident",
+      "Roamer",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1968,
+      "scale": 0.04,
+      "regenRate": 4.1015,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 8,
+      "survivability": 6,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_mephisto.png"
+  },
+  {
+    "unitId": "HeroMonk",
+    "name": "Kharazim",
+    "attributeId": "Monk",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2015-08-18",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 2027,
+      "scale": 0.04,
+      "regenRate": 4.2226,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 4,
+      "survivability": 7,
+      "utility": 9
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_monk.png"
+  },
+  {
+    "unitId": "HeroMuradin",
+    "name": "Muradin",
+    "attributeId": "Mura",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 2765,
+      "scale": 0.04,
+      "regenRate": 5.7617,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 5,
+      "survivability": 9,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_muradin.png"
+  },
+  {
+    "unitId": "HeroMurky",
+    "name": "Murky",
+    "attributeId": "Murk",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-05-22",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "BodyBlocker",
+      "Escaper",
+      "Ganker",
+      "MercKiller",
+      "Overconfident",
+      "RoleSpecialist",
+      "SoloLaner",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 730,
+      "scale": 0.04,
+      "regenRate": 29.1992,
+      "regenScale": 0.04
+    },
+    "ratings": {
+      "complexity": 8,
+      "damage": 5,
+      "survivability": 1,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_murky.png"
+  },
+  {
+    "unitId": "HeroNecromancer",
+    "name": "Xul",
+    "attributeId": "Necr",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2016-03-01",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "RoleSpecialist",
+      "SoloLaner",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 2080,
+      "scale": 0.04,
+      "regenRate": 4.332,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 5,
+      "survivability": 7,
+      "utility": 9
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_necromancer.png"
+  },
+  {
+    "unitId": "HeroNexusHunter",
+    "name": "Qhira",
+    "attributeId": "NXHU",
+    "franchise": "Nexus",
+    "gender": "Female",
+    "releaseDate": "2019-08-06",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "ChanneledAutoAttacker",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "Roamer",
+      "RoleAutoAttacker",
+      "SoloLaner"
+    ],
+    "life": {
+      "amount": 2000,
+      "scale": 0.04,
+      "regenRate": 4.168,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 8,
+      "survivability": 7,
+      "utility": 6
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_nexus2.png"
+  },
+  {
+    "unitId": "HeroNova",
+    "name": "Nova",
+    "attributeId": "Nova",
+    "franchise": "Starcraft",
+    "gender": "Female",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "Helper",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1300,
+      "scale": 0.04,
+      "regenRate": 2.711,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 10,
+      "survivability": 2,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_nova.png"
+  },
+  {
+    "unitId": "HeroOrphea",
+    "name": "Orphea",
+    "attributeId": "ORPH",
+    "franchise": "Nexus",
+    "gender": "Female",
+    "releaseDate": "2018-11-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "RoleAutoAttacker",
+      "RoleCaster",
+      "SoloLaner",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1525,
+      "scale": 0.04,
+      "regenRate": 3.1757,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 9,
+      "survivability": 7,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_orphea.png"
+  },
+  {
+    "unitId": "HeroProbius",
+    "name": "Probius",
+    "attributeId": "Prob",
+    "franchise": "Starcraft",
+    "gender": "Male",
+    "releaseDate": "2017-03-14",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "RoleSpecialist",
+      "SoloLaner",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1260,
+      "scale": 0.04,
+      "regenRate": 2.625,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 600,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 8,
+      "survivability": 4,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_probius.png"
+  },
+  {
+    "unitId": "HeroRagnaros",
+    "name": "Ragnaros",
+    "attributeId": "Ragn",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2016-12-14",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "Overconfident",
+      "RoleCaster",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 2075,
+      "scale": 0.04,
+      "regenRate": 4.3242,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 8,
+      "survivability": 8,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_ragnaros.png"
+  },
+  {
+    "unitId": "HeroRaynor",
+    "name": "Raynor",
+    "attributeId": "Rayn",
+    "franchise": "Starcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Rare",
+    "descriptors": [
+      "EnergyImportant",
+      "RoleAutoAttacker",
+      "TowerPusher"
+    ],
+    "life": {
+      "amount": 1450,
+      "scale": 0.04,
+      "regenRate": 3.0195,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 3,
+      "damage": 9,
+      "survivability": 6,
+      "utility": 1
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_raynor.png"
+  },
+  {
+    "unitId": "HeroRehgar",
+    "name": "Rehgar",
+    "attributeId": "Rehg",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-07-22",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Escaper",
+      "Helper",
+      "Overconfident",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 1900,
+      "scale": 0.04,
+      "regenRate": 3.957,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 5,
+      "survivability": 7,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_rehgar.png"
+  },
+  {
+    "unitId": "HeroRexxar",
+    "name": "Rexxar",
+    "attributeId": "Rexx",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2015-09-08",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "MercKiller",
+      "RoleSpecialist",
+      "SoloLaner",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1810,
+      "scale": 0.04,
+      "regenRate": 3.7695,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 5,
+      "survivability": 7,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_rexxar.png"
+  },
+  {
+    "unitId": "HeroSamuro",
+    "name": "Samuro",
+    "attributeId": "Samu",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2016-10-18",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "Ganker",
+      "MercKiller",
+      "Overconfident",
+      "RoleAutoAttacker",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1725,
+      "scale": 0.04,
+      "regenRate": 3.5898,
+      "regenScale": 0.04
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 6,
+      "survivability": 7,
+      "utility": 3
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_samuro.png"
+  },
+  {
+    "unitId": "HeroSgtHammer",
+    "name": "SgtHammer",
+    "attributeId": "Sgth",
+    "franchise": "Starcraft",
+    "gender": "Female",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "RoleAutoAttacker",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1720,
+      "scale": 0.04,
+      "regenRate": 3.582,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 9,
+      "survivability": 3,
+      "utility": 3
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_sgthammer.png"
+  },
+  {
+    "unitId": "HeroStitches",
+    "name": "Stitches",
+    "attributeId": "Stit",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 3020,
+      "scale": 0.04,
+      "regenRate": 6.293,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 6,
+      "survivability": 8,
+      "utility": 10
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_stitches.png"
+  },
+  {
+    "unitId": "HeroStukov",
+    "name": "Stukov",
+    "attributeId": "STUK",
+    "franchise": "Starcraft",
+    "gender": "Male",
+    "releaseDate": "2017-07-11",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Helper",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 1835,
+      "scale": 0.04,
+      "regenRate": 3.8242,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 3,
+      "survivability": 5,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_stukov.png"
+  },
+  {
+    "unitId": "HeroSylvanas",
+    "name": "Sylvanas",
+    "attributeId": "Sylv",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2015-03-24",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "MercKiller",
+      "RoleSpecialist",
+      "TowerDisabler",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1650,
+      "scale": 0.04,
+      "regenRate": 3.4414,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 9,
+      "survivability": 3,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_sylvanas.png"
+  },
+  {
+    "unitId": "HeroTassadar",
+    "name": "Tassadar",
+    "attributeId": "Tass",
+    "franchise": "Starcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "ChanneledAutoAttacker",
+      "EnergyImportant",
+      "Escaper",
+      "Helper",
+      "RoleCaster",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1650,
+      "scale": 0.04,
+      "regenRate": 3.4375,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 6,
+      "survivability": 7,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_tassadar.png"
+  },
+  {
+    "unitId": "HeroThrall",
+    "name": "Thrall",
+    "attributeId": "Thra",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2015-01-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "RoleAutoAttacker"
+    ],
+    "life": {
+      "amount": 1896,
+      "scale": 0.04,
+      "regenRate": 3.9492,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 8,
+      "survivability": 7,
+      "utility": 5
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_thrall.png"
+  },
+  {
+    "unitId": "HeroTinker",
+    "name": "Gazlowe",
+    "attributeId": "Tink",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Rare",
+    "descriptors": [
+      "EnergyImportant",
+      "MercKiller",
+      "RoleSpecialist",
+      "SoloLaner",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 2275,
+      "scale": 0.04,
+      "regenRate": 4.74,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 10,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 5,
+      "survivability": 5,
+      "utility": 6
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_gazlowe.png"
+  },
+  {
+    "unitId": "HeroTracer",
+    "name": "Tracer",
+    "attributeId": "Tra0",
+    "franchise": "Overwatch",
+    "gender": "Female",
+    "releaseDate": "2016-04-19",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "Escaper",
+      "Ganker",
+      "RoleAutoAttacker"
+    ],
+    "life": {
+      "amount": 1330,
+      "scale": 0.04,
+      "regenRate": 2.707,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 20,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 8,
+      "damage": 8,
+      "survivability": 5,
+      "utility": 2
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_tracer.png"
+  },
+  {
+    "unitId": "HeroTychus",
+    "name": "Tychus",
+    "attributeId": "Tych",
+    "franchise": "Starcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-18",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "RoleAutoAttacker",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1925,
+      "scale": 0.04,
+      "regenRate": 4.0117,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 8,
+      "survivability": 5,
+      "utility": 1
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_tychus.png"
+  },
+  {
+    "unitId": "HeroTyrael",
+    "name": "Tyrael",
+    "attributeId": "Tyrl",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "BodyBlocker",
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "RoleAutoAttacker",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 2517,
+      "scale": 0.04,
+      "regenRate": 5.2382,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 6,
+      "survivability": 8,
+      "utility": 6
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_tyrael.png"
+  },
+  {
+    "unitId": "HeroTyrande",
+    "name": "Tyrande",
+    "attributeId": "Tyrd",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Ganker",
+      "Helper",
+      "RoleAutoAttacker",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 1511,
+      "scale": 0.04,
+      "regenRate": 3.1484,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 5,
+      "survivability": 4,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_tyrande.png"
+  },
+  {
+    "unitId": "HeroUther",
+    "name": "Uther",
+    "attributeId": "Uthe",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Helper",
+      "Overconfident",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 1975,
+      "scale": 0.04,
+      "regenRate": 4.1093,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 2,
+      "damage": 3,
+      "survivability": 7,
+      "utility": 9
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_uther.png"
+  },
+  {
+    "unitId": "HeroValeera",
+    "name": "Valeera",
+    "attributeId": "VALE",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2017-01-24",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "Ganker",
+      "Helper",
+      "Overconfident",
+      "RoleAutoAttacker",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 2047,
+      "scale": 0.04,
+      "regenRate": 4.2656,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 100,
+      "regenRate": 10
+    },
+    "ratings": {
+      "complexity": 8,
+      "damage": 5,
+      "survivability": 6,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_valeera.png"
+  },
+  {
+    "unitId": "HeroVarian",
+    "name": "Varian",
+    "attributeId": "Vari",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2016-11-15",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "Overconfident",
+      "RoleAutoAttacker",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 2220,
+      "scale": 0.04,
+      "regenRate": 4.625,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 6,
+      "survivability": 6,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_varian.png"
+  },
+  {
+    "unitId": "HeroWhitemane",
+    "name": "Whitemane",
+    "attributeId": "WHIT",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2018-08-07",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "life": {
+      "amount": 1400,
+      "scale": 0.04,
+      "regenRate": 2.9218,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 8,
+      "damage": 5,
+      "survivability": 5,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_whitemane.png"
+  },
+  {
+    "unitId": "HeroWitchDoctor",
+    "name": "Nazeebo",
+    "attributeId": "Witc",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "RoleSpecialist",
+      "SoloLaner",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1502,
+      "scale": 0.04,
+      "regenRate": 3.129,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 8,
+      "survivability": 3,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_witchdoctor.png"
+  },
+  {
+    "unitId": "HeroWizard",
+    "name": "LiMing",
+    "attributeId": "Wiza",
+    "franchise": "Diablo",
+    "gender": "Female",
+    "releaseDate": "2016-02-02",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "RoleCaster",
+      "TowerPusher"
+    ],
+    "life": {
+      "amount": 1270,
+      "scale": 0.04,
+      "regenRate": 2.6484,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 10,
+      "survivability": 3,
+      "utility": 1
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_wizard.png"
+  },
+  {
+    "unitId": "HeroYrel",
+    "name": "Yrel",
+    "attributeId": "YREL",
+    "franchise": "Warcraft",
+    "gender": "Female",
+    "releaseDate": "2018-06-12",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "BodyBlocker",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "RoleTank",
+      "SelfHealer",
+      "SoloLaner"
+    ],
+    "life": {
+      "amount": 2678,
+      "scale": 0.04,
+      "regenRate": 5.418,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 5,
+      "survivability": 10,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_yrel.png"
+  },
+  {
+    "unitId": "HeroZagara",
+    "name": "Zagara",
+    "attributeId": "Zaga",
+    "franchise": "Starcraft",
+    "gender": "Female",
+    "releaseDate": "2014-06-25",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "EnergyImportant",
+      "RoleSpecialist",
+      "SoloLaner",
+      "TowerPusher",
+      "WaveClearer"
+    ],
+    "life": {
+      "amount": 1550,
+      "scale": 0.04,
+      "regenRate": 3.2304,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 6,
+      "damage": 6,
+      "survivability": 5,
+      "utility": 8
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_zagara.png"
+  },
+  {
+    "unitId": "HeroZarya",
+    "name": "Zarya",
+    "attributeId": "Zary",
+    "franchise": "Overwatch",
+    "gender": "Female",
+    "releaseDate": "2016-09-27",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Epic",
+    "descriptors": [
+      "ChanneledAutoAttacker",
+      "Helper",
+      "Overconfident",
+      "RoleTank"
+    ],
+    "life": {
+      "amount": 2292,
+      "scale": 0.04,
+      "regenRate": 4.7734,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 100,
+      "regenRate": 0
+    },
+    "ratings": {
+      "complexity": 7,
+      "damage": 5,
+      "survivability": 8,
+      "utility": 7
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_zarya.png"
+  },
+  {
+    "unitId": "HeroZeratul",
+    "name": "Zeratul",
+    "attributeId": "Zera",
+    "franchise": "Starcraft",
+    "gender": "Male",
+    "releaseDate": "2014-03-13",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "Helper",
+      "Overconfident",
+      "RoleAutoAttacker",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1622,
+      "scale": 0.04,
+      "regenRate": 3.379,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 5,
+      "damage": 8,
+      "survivability": 6,
+      "utility": 6
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_zeratul.png"
+  },
+  {
+    "unitId": "HeroZuljin",
+    "name": "Zuljin",
+    "attributeId": "ZULJ",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "releaseDate": "2017-01-04",
+    "sight": 12,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "descriptors": [
+      "EnergyImportant",
+      "Ganker",
+      "RoleAutoAttacker",
+      "RoleCaster"
+    ],
+    "life": {
+      "amount": 1875,
+      "scale": 0.04,
+      "regenRate": 3.9023,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500,
+      "regenRate": 3
+    },
+    "ratings": {
+      "complexity": 4,
+      "damage": 8,
+      "survivability": 6,
+      "utility": 4
+    },
+    "avatar": "storm_ui_ingame_heroselect_btn_zuljin.png"
+  }
+]
