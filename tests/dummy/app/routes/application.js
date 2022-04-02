@@ -4,6 +4,10 @@ class Hero {
   get avatarURL() {
     return `https://raw.githubusercontent.com/HeroesToolChest/heroes-images/master/heroesimages/heroportraits/${this.avatar}`;
   }
+
+  get stringDescriptors() {
+    return this.descriptors?.join(', ');
+  }
 }
 
 export default class ApplicationRoute extends Route {
