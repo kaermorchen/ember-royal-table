@@ -3,22 +3,22 @@ import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
 import { hbs } from 'ember-cli-htmlbars';
 
-module('Integration | Component | royal-column', function (hooks) {
+module('Integration | Component | royal-table/column', function (hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function (assert) {
     // Set any properties with this.set('myProperty', 'value');
     // Handle any actions with this.set('myAction', function(val) { ... });
 
-    await render(hbs`<RoyalColumn />`);
+    await render(hbs`<RoyalTable::Column />`);
 
     assert.dom(this.element).hasText('');
 
     // Template block usage:
     await render(hbs`
-      <RoyalColumn>
+      <RoyalTable::Column>
         template block text
-      </RoyalColumn>
+      </RoyalTable::Column>
     `);
 
     assert.dom(this.element).hasText('template block text');
