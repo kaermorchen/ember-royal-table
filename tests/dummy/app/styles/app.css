@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.royal-table {
+  @apply table-auto border border-gray rounded-md overflow-hidden;
+
+  & thead {
+    @apply bg-light;
+
+    & tr {
+      th {
+        @apply px-4 py-2 text-dark font-normal;
+
+        &[type="button"] {
+          @apply cursor-pointer;
+        }
+      }
+    }
+  }
+
+  & tbody {
+    tr {
+      td {
+        @apply px-4 py-2 text-text;
+
+
+      }
+    }
+  }
+}

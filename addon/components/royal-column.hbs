@@ -1,7 +1,7 @@
 {{#if this.isHead}}
   {{! template-lint-disable no-invalid-interactive }}
   <th
-    role={{if this.sortable 'button'}}
+    role={{if @sortable 'button'}}
     {{on 'click' this.handleClickHead}}
     {{on 'click' this.handleSort}}
   >

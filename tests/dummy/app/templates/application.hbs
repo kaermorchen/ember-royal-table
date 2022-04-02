@@ -1,7 +1,7 @@
-<h1>Royal Table</h1>
+<h1 class="text-2xl mb-4">Royal Table</h1>
 
-<h2>Simple table</h2>
-<RoyalTable @data={{this.data}} as |Column rowData|>
+<h2 class="text-xl mb-2">Simple table</h2>
+<RoyalTable class="mb-4" @data={{this.data}} as |Column rowData|>
   <Column @name="First name" @prop="firstName" />
   <Column @name="Last name" @prop="lastName" />
   <Column>
@@ -10,8 +10,9 @@
   </Column>
 </RoyalTable>
 
-<h2>Sorted table</h2>
+<h2 class="text-xl mb-2">Sorted table</h2>
 <RoyalTable
+  class="mb-4"
   @data={{this.sortedData}}
   @sortingProp={{this.sortingProp}}
   @onSort={{this.onSort}}
