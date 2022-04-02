@@ -19,10 +19,10 @@
   <Column @name="Gender" @prop="gender" @sortable={{true}}/>
   <Column @name="Franchise" @prop="franchise" @sortable={{true}}/>
   <Column @name="Rarity" @prop="rarity" @sortable={{true}}/>
-  <Column @name="HP" @prop="life.amount" @sortable={{true}}/>
-  <Column @name="Energy" @prop="energy.amount" @sortable={{true}}/>
+  <Column @name="HP" @prop="life.amount" @sortable={{true}} class="text-right"/>
+  <Column @name="Energy" @prop="energy.amount" @sortable={{true}} class="text-right"/>
   <Column @name="Descriptors" @prop="stringDescriptors"/>
-  <Column @prop="releaseDate" @sortable={{true}}>
+  <Column @prop="releaseDate" @sortable={{true}} class="text-right">
     <:head><MdIcon @icon="calendar" @size={{18}}/>Release date</:head>
   </Column>
 </RoyalTable>

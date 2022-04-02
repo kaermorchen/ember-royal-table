@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .royal-table {
-  @apply table-auto border border-gray;
+  @apply table-auto border border-gray text-left;
 
   & thead {
     @apply bg-light;

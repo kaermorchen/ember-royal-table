@@ -2,6 +2,7 @@
   {{! template-lint-disable no-invalid-interactive }}
   <th
     role={{if @sortable 'button'}}
+    ...attributes
     {{on 'click' this.handleClickHead}}
     {{on 'click' this.handleSort}}
   >
@@ -11,7 +12,7 @@
       {{@name}}
     {{/if}}
     {{#if @sortable}}
-      {{!-- TODO: add ensure-safe-component --}}
+      {{! TODO: add ensure-safe-component }}
       {{#let
         (if
           @sortingIconComponent
@@ -28,9 +29,8 @@
       {{/let}}
     {{/if}}
   </th>
-{{/if}}
-{{#if this.isBody}}
-  <td>
+{{else if this.isBody}}
+  <td ...attributes>
     {{#if (has-block)}}
       {{yield}}
     {{else}}
