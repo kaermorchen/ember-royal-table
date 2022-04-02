@@ -3,14 +3,16 @@
 @tailwind utilities;
 
 .royal-table {
-  @apply table-auto border border-gray rounded-md overflow-hidden;
+  @apply table-auto border border-gray;
 
   & thead {
     @apply bg-light;
 
     & tr {
+      @apply border-b border-gray;
+
       th {
-        @apply px-4 py-2 text-dark font-normal;
+        @apply px-4 py-3 text-dark font-normal leading-none;
 
         &[type="button"] {
           @apply cursor-pointer select-none;
@@ -21,10 +23,12 @@
 
   & tbody {
     tr {
+      &:nth-child(even) {
+        @apply bg-light;
+      }
+
       td {
-        @apply px-4 py-2 text-text ;
-
-
+        @apply px-4 py-2 text-text;
       }
     }
   }

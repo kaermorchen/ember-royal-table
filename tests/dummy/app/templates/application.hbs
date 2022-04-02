@@ -16,6 +16,10 @@
     />
   </Column>
   <Column @name="Name" @prop="name" @sortable={{true}}/>
+  <Column @name="Gender" @prop="gender"/>
   <Column @name="Franchise" @prop="franchise"/>
+  <Column @name="Rarity" @prop="rarity" @sortable={{true}}/>
+  <Column @name="HP" @prop="life.amount" @sortable={{true}}/>
+  <Column @name="Mana" @prop="energy.amount" @sortable={{true}}/>
   <Column @name="Release date" @prop="releaseDate" @sortable={{true}}/>
 </RoyalTable>

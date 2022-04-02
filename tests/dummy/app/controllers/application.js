@@ -1,5 +1,5 @@
 import Controller from '@ember/controller';
-import { action } from '@ember/object';
+import { action, get } from '@ember/object';
 import { compare } from '@ember/utils';
 import { tracked } from '@glimmer/tracking';
 
@@ -13,7 +13,7 @@ export default class ApplicationController extends Controller {
 
     const sortingKeys = this.sortingProp.split(':');
     const sortedModel = this.model.sort((a, b) =>
-      compare(a[sortingKeys[0]], b[sortingKeys[0]])
+      compare(get(a, sortingKeys[0]), get(b, sortingKeys[0]))
     );
 
     return !sortingKeys[1] || sortingKeys[1] === 'asc'
