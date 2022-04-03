@@ -3,30 +3,33 @@
 @tailwind utilities;
 
 .royal-table {
-  @apply grid border border-gray text-left;
+  @apply border border-gray text-left;
 
   thead {
-    @apply contents bg-light;
+    @apply bg-light;
 
     tr {
-      @apply contents border-b border-gray;
+      @apply border-b border-gray;
 
       th {
-        @apply px-4 py-4 text-dark font-normal whitespace-nowrap flex items-center;
+        @apply px-4 py-4 text-dark font-normal whitespace-nowrap;
 
         &[type="button"] {
           @apply cursor-pointer select-none;
+        }
+
+        svg {
+          width: 1em;
+          height: 1em;
+          bottom: .1em;
+          position: relative;
         }
       }
     }
   }
 
   tbody {
-    @apply contents;
-
     tr {
-      @apply contents;
-
       &:nth-child(even) {
         @apply bg-light;
       }

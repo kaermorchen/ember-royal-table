@@ -5,13 +5,7 @@
     ...attributes
     {{on 'click' this.handleClickHead}}
     {{on 'click' this.handleSort}}
-    {{did-insert this.didInsert}}
   >
-    {{#if (has-block 'head')}}
-      {{yield to='head'}}
-    {{else}}
-      {{@name}}
-    {{/if}}
     {{#if @sortable}}
       {{! TODO: add ensure-safe-component }}
       {{#let
@@ -28,6 +22,11 @@
           @isDescSorted={{this.isDescSorted}}
         />
       {{/let}}
+    {{/if}}
+    {{#if (has-block 'head')}}
+      {{yield to='head'}}
+    {{else}}
+      {{@name}}
     {{/if}}
   </th>
 {{else if this.isBody}}

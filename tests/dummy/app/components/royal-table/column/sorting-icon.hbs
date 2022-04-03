@@ -1,5 +1,3 @@
 {{#if @sortable}}
-  {{#let (if @isAscSorted "chevron-down" (if @isDescSorted "chevron-up" "unfold-more-horizontal")) as |icon|}}
-    <MdIcon @icon={{icon}} @size="16" class="ml-1"/>
-  {{/let}}
+  <MdIcon @icon={{this.icon}}/>
 {{/if}}
