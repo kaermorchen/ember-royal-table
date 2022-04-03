@@ -23,8 +23,8 @@
         />
       {{/let}}
     {{/if}}
-    {{#if (has-block 'head')}}
-      {{yield to='head'}}
+    {{#if (has-block 'name')}}
+      {{yield to='name'}}
     {{else}}
       {{@name}}
     {{/if}}
