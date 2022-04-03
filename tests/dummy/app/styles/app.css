@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 .royal-table {
-  @apply table-auto border border-gray text-left;
+  @apply grid grid-flow-col border border-gray text-left;
 
-  & thead {
-    @apply bg-light;
+  thead {
+    @apply contents bg-light;
 
-    & tr {
-      @apply border-b border-gray;
+    tr {
+      @apply contents border-b border-gray;
 
       th {
         @apply px-4 py-4 text-dark font-normal leading-none whitespace-nowrap;
@@ -21,8 +21,12 @@
     }
   }
 
-  & tbody {
+  tbody {
+    @apply contents;
+
     tr {
+      @apply contents;
+
       &:nth-child(even) {
         @apply bg-light;
       }
