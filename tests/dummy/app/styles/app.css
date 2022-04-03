@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .royal-table {
-  @apply grid grid-flow-col border border-gray text-left;
+  @apply grid border border-gray text-left;
 
   thead {
     @apply contents bg-light;

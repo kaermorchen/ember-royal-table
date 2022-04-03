@@ -5,6 +5,7 @@
     ...attributes
     {{on 'click' this.handleClickHead}}
     {{on 'click' this.handleSort}}
+    {{did-insert this.didInsert}}
   >
     {{#if (has-block 'head')}}
       {{yield to='head'}}

@@ -23,6 +23,11 @@ export default class RoyalTableColumnComponent extends Component {
   }
 
   @action
+  didInsert() {
+    this.args.table?.columns?.add(this);
+  }
+
+  @action
   handleClickHead(e) {
     if (typeof this.args.onClickHead === 'function') {
       this.args.onClickHead(this.args.prop, this, e);
@@ -34,5 +39,11 @@ export default class RoyalTableColumnComponent extends Component {
     if (this.args.sortable && typeof this.args.onSort === 'function') {
       this.args.onSort(this.args.prop, this, e);
     }
+  }
+
+  willDestroy() {
+    super.willDestroy(...arguments);
+
+    this.args.table?.columns?.delete(this);
   }
 }
