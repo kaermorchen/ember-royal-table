@@ -1,4 +1,8 @@
+
 <table class="royal-table" ...attributes>
+  {{#if @caption}}
+    <caption>{{@caption}}</caption>
+  {{/if}}
   <thead>
     <tr>
       {{yield (component "royal-table/column" place="head" onClickHead=@onClickHead onSort=@onSort sortingProp=@sortingProp sortingIconComponent=@sortingIconComponent table=this)}}
