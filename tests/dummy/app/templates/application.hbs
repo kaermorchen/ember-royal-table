@@ -1,6 +1,9 @@
 <h1 class="text-2xl mb-4">
   Royal Table
 </h1>
+{{!-- <h2 class="text-xl mb-4">
+  Simple table
+</h2>
 <RoyalTable
   @data={{this.sortedModel}}
   @sortingProp={{this.sortingProp}}
@@ -26,4 +29,23 @@
   <Column @prop="releaseDate" @sortable={{true}} class="text-right">
     <:name><MdIcon @icon="calendar"/>Release date</:name>
   </Column>
+</RoyalTable> --}}
+<h2 class="text-xl mb-4">
+  Draggable columns
+</h2>
+<RoyalTable
+  @data={{this.sortedModel}}
+  @sortingProp={{this.sortingProp}}
+  @onSort={{this.onSort}} as |Column|
+>
+  {{#each this.columns as |item|}}
+    <Column
+      @name={{item.name}}
+      @prop={{item.prop}}
+      @sortable={{item.sortable}}
+      @draggable={{item.draggable}}
+      @align={{item.align}}
+      @order={{item.order}}
+    />
+  {{/each}}
 </RoyalTable>

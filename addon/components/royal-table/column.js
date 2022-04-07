@@ -2,6 +2,14 @@ import Component from '@glimmer/component';
 import { action } from '@ember/object';
 
 export default class RoyalTableColumnComponent extends Component {
+  // constructor() {
+  //   super(...arguments);
+
+  //   if (this.args.meta) {
+
+  //   }
+  // }
+
   get isHead() {
     return this.args.place === 'head';
   }
