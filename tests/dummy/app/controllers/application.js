@@ -11,14 +11,12 @@ export default class ApplicationController extends Controller {
       return this.model;
     }
 
-    const sortingKeys = this.sortingProp.split(':');
+    const [key, order] = this.sortingProp.split(':');
     const sortedModel = this.model.sort((a, b) =>
-      compare(get(a, sortingKeys[0]), get(b, sortingKeys[0]))
+      compare(get(a, key), get(b, key))
     );
 
-    return !sortingKeys[1] || sortingKeys[1] === 'asc'
-      ? sortedModel
-      : sortedModel.reverse();
+    return !order || order === 'asc' ? sortedModel : sortedModel.reverse();
   }
 
   @action
