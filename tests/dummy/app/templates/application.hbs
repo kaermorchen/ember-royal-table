@@ -38,7 +38,7 @@
   @sortingProp={{this.sortingProp}}
   @onSort={{this.onSort}} as |Column|
 >
-  {{#each this.columns as |item|}}
+  {{#each this.sortedColumns as |item|}}
     <Column
       @name={{item.name}}
       @prop={{item.prop}}

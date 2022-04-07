@@ -2,6 +2,7 @@
   {{! template-lint-disable no-invalid-interactive }}
   <th
     role={{if @sortable 'button'}}
+    align={{@align}}
     ...attributes
     {{on 'click' this.handleClickHead}}
     {{on 'click' this.handleSort}}
@@ -30,7 +31,7 @@
     {{/if}}
   </th>
 {{else if this.isBody}}
-  <td ...attributes>
+  <td align={{@align}} ...attributes>
     {{#if (has-block)}}
       {{yield}}
     {{else}}
