@@ -33,6 +33,10 @@
   <td ...attributes>
     {{#if (has-block)}}
       {{yield}}
+    {{else if @bodyComponent}}
+      {{#let (component @bodyComponent) as |BodyComponent|}}
+        <BodyComponent @data={{@data}} />
+      {{/let}}
     {{else}}
       {{get @data @prop}}
     {{/if}}

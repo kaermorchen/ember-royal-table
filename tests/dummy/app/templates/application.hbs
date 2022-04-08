@@ -5,26 +5,16 @@
   @caption="Heroes of the Storm"
   @data={{this.sortedModel}}
   @sortingProp={{this.sortingProp}}
-  @onSort={{this.onSort}} as |Column rowData|
+  @onSort={{this.onSort}} as |Column|
 >
-  <Column @name="Avatar">
-    <img
-      width="64"
-      height="64"
-      src={{rowData.avatarURL}}
-      alt={{rowData.name}}
-      title={{rowData.name}}
-      loading="lazy"
+  {{#each this.sortedColumns as |item|}}
+    <Column
+      @name={{item.name}}
+      @prop={{item.prop}}
+      @sortable={{item.sortable}}
+      @align={{item.align}}
+      @order={{item.order}}
+      @bodyComponent={{item.bodyComponent}}
     />
-  </Column>
-  <Column @name="Name" @prop="name" @sortable={{true}}/>
-  <Column @name="Gender" @prop="gender" @sortable={{true}}/>
-  <Column @name="Franchise" @prop="franchise" @sortable={{true}}/>
-  <Column @name="Rarity" @prop="rarity" @sortable={{true}}/>
-  <Column @name="HP" @prop="life.amount" @sortable={{true}} class="text-right"/>
-  <Column @name="Energy" @prop="energy.amount" @sortable={{true}} class="text-right"/>
-  <Column @name="Descriptors" @prop="stringDescriptors"/>
-  <Column @prop="releaseDate" @sortable={{true}} class="text-right">
-    <:name><MdIcon @icon="calendar"/>Release date</:name>
-  </Column>
+  {{/each}}
 </RoyalTable>

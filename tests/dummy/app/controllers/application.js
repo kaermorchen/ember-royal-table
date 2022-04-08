@@ -3,8 +3,89 @@ import { action, get } from '@ember/object';
 import { compare } from '@ember/utils';
 import { tracked } from '@glimmer/tracking';
 
+class Column {
+  @tracked name;
+  @tracked prop;
+  @tracked sortable;
+  @tracked align;
+  @tracked order;
+}
+
+const columns = [
+  {
+    name: 'Avatar',
+    prop: 'avatarURL',
+    sortable: false,
+    align: null,
+    order: 0,
+    bodyComponent: 'avatar',
+  },
+  {
+    name: 'Name',
+    prop: 'name',
+    sortable: true,
+    align: null,
+    order: 1,
+  },
+  {
+    name: 'Gender',
+    prop: 'gender',
+    sortable: true,
+    align: null,
+    order: 2,
+  },
+  {
+    name: 'Franchise',
+    prop: 'franchise',
+    sortable: true,
+    align: null,
+    order: 3,
+  },
+  {
+    name: 'Rarity',
+    prop: 'rarity',
+    sortable: true,
+    align: null,
+    order: 4,
+  },
+  {
+    name: 'HP',
+    prop: 'life.amount',
+    sortable: true,
+    align: 'right',
+    order: 5,
+  },
+  {
+    name: 'Energy',
+    prop: 'energy.amount',
+    sortable: true,
+    align: 'right',
+    order: 6,
+  },
+  {
+    name: 'Descriptors',
+    prop: 'stringDescriptors',
+    sortable: null,
+    align: null,
+    order: 7,
+  },
+  {
+    name: 'Release date',
+    prop: 'releaseDate',
+    sortable: true,
+    align: 'right',
+    order: 8,
+  },
+].map((item) => Object.assign(new Column(), item));
+
 export default class ApplicationController extends Controller {
   @tracked sortingProp = 'name:asc';
+
+  columns = columns;
+
+  get sortedColumns() {
+    return this.columns.sort((a, b) => compare(a.order, b.order));
+  }
 
   get sortedModel() {
     if (!this.sortingProp) {
