@@ -3,6 +3,12 @@ import { action } from '@ember/object';
 import BaseComponent from '../base';
 
 export default class RoyalTableColumnComponent extends BaseComponent {
+  constructor(owner, args) {
+    super(owner, args);
+
+    this.args.table?.columns?.push(this);
+  }
+
   get isHead() {
     return this.args.place === 'head';
   }

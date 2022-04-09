@@ -4,29 +4,40 @@
       {{@caption}}
     </caption>
   {{/if}}
+  {{yield (component 'royal-table/column' table=this)}}
   <thead>
     <tr>
-      {{yield
-        (component
-          'royal-table/column'
-          place='head'
-          onClickHead=@onClickHead
-          onSort=@onSort
-          sortingProp=@sortingProp
-          sortingIconComponent=@sortingIconComponent
-          table=this
-        )
-      }}
+      {{#each this.sortedColumns as |item|}}
+        <RoyalTable::Column
+          @place="head"
+          @name={{item.name}}
+          @prop={{item.prop}}
+          @sortable={{item.sortable}}
+          @align={{item.align}}
+          @order={{item.order}}
+          @onClickHead={{@onClickHead}}
+          @onSort={{@onSort}}
+          @sortingProp={{@sortingProp}}
+          @sortingIconComponent={{@sortingIconComponent}}
+        />
+      {{/each}}
     </tr>
   </thead>
   <tbody>
-    {{#each @data as |item index|}}
+    {{#each @data as |data|}}
       <tr>
-        {{yield
-          (component 'royal-table/column' place='body' data=item)
-          item
-          index
-        }}
+        {{#each this.sortedColumns as |item|}}
+          <RoyalTable::Column
+            @place="body"
+            @data={{data}}
+            @name={{item.name}}
+            @prop={{item.prop}}
+            @sortable={{item.sortable}}
+            @align={{item.align}}
+            @order={{item.order}}
+            @bodyComponent={{item.bodyComponent}}
+          />
+        {{/each}}
       </tr>
     {{/each}}
   </tbody>

@@ -84,7 +84,7 @@ export default class ApplicationController extends Controller {
   columns = columns;
 
   get sortedColumns() {
-    return this.columns.sort((a, b) => compare(a.order, b.order));
+    return this.columns.sort((a, b) => compare(a.order, b.order)).reverse();
   }
 
   get sortedModel() {
