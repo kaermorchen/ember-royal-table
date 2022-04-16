@@ -1,0 +1,15 @@
+<tr ...attributes>
+  {{yield
+    (component
+      'royal-table/column'
+      place=@place
+      prop=@prop
+      sortable=@sortable
+      onClickHead=@onClickHead
+      onSort=@onSort
+      sortingProp=@sortingProp
+      sortingIconComponent=@sortingIconComponent
+      data=@data
+    )
+  }}
+</tr>

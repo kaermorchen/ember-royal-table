@@ -5,29 +5,20 @@
     </caption>
   {{/if}}
   <thead>
-    <tr>
-      {{yield
-        (component
-          'royal-table/column'
-          place='head'
-          onClickHead=@onClickHead
-          onSort=@onSort
-          sortingProp=@sortingProp
-          sortingIconComponent=@sortingIconComponent
-          table=this
-        )
-      }}
-    </tr>
+    {{yield
+      (component
+        'royal-table/row'
+        place='head'
+        onClickHead=@onClickHead
+        onSort=@onSort
+        sortingProp=@sortingProp
+        sortingIconComponent=@sortingIconComponent
+      )
+    }}
   </thead>
   <tbody>
     {{#each @data as |item index|}}
-      <tr>
-        {{yield
-          (component 'royal-table/column' place='body' data=item)
-          item
-          index
-        }}
-      </tr>
+      {{yield (component 'royal-table/row' place='body' data=item) item index}}
     {{/each}}
   </tbody>
 </table>
