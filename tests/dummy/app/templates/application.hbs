@@ -7,34 +7,56 @@
   @sortingProp={{this.sortingProp}}
   @onSort={{this.onSort}} as |Row data|
 >
-  <Row as |Column|>
-    <Column @name="Avatar">
-      <img
-        width="64"
-        height="64"
-        src={{data.avatarURL}}
-        alt={{data.name}}
-        title={{data.name}}
-        loading="lazy"
+  <Row>
+    <:default as |Column|>
+      <Column>
+        <MdIcon
+          @icon={{if data.expanded 'chevron-down' 'chevron-right'}}
+          class="cursor-pointer"
+          {{on 'click' (fn this.toggleValue data 'expanded')}}
+        />
+      </Column>
+      <Column @name="Avatar">
+        <img
+          width="64"
+          height="64"
+          src={{data.avatarURL}}
+          alt={{data.name}}
+          title={{data.name}}
+          loading="lazy"
+        />
+      </Column>
+      <Column @name="Name" @prop="name" @sortable={{true}} />
+      <Column @name="Gender" @prop="gender" @sortable={{true}} />
+      <Column @name="Franchise" @prop="franchise" @sortable={{true}} />
+      <Column @name="Rarity" @prop="rarity" @sortable={{true}} />
+      <Column
+        @name="HP"
+        @prop="life.amount"
+        @sortable={{true}}
+        @align="right"
       />
-    </Column>
-    <Column @name="Name" @prop="name" @sortable={{true}} />
-    <Column @name="Gender" @prop="gender" @sortable={{true}} />
-    <Column @name="Franchise" @prop="franchise" @sortable={{true}} />
-    <Column @name="Rarity" @prop="rarity" @sortable={{true}} />
-    <Column @name="HP" @prop="life.amount" @sortable={{true}} @align="right" />
-    <Column
-      @name="Energy"
-      @prop="energy.amount"
-      @sortable={{true}}
-      @align="right"
-    />
-    <Column @name="Descriptors" @prop="stringDescriptors" />
-    <Column @prop="releaseDate" @sortable={{true}} @align="right">
-      <:name>
-        <MdIcon @icon="calendar" />
-        Release date
-      </:name>
-    </Column>
+      <Column
+        @name="Energy"
+        @prop="energy.amount"
+        @sortable={{true}}
+        @align="right"
+      />
+      <Column @name="Descriptors" @prop="stringDescriptors" />
+      <Column @prop="releaseDate" @sortable={{true}} @align="right">
+        <:name>
+          <MdIcon @icon="calendar" />
+          Release date
+        </:name>
+      </Column>
+    </:default>
+    <:expandedView>
+      <div class="grid grid-cols-2 gap-4">
+        {{#each-in data as |key value|}}
+          <div>{{key}}</div>
+          <div>{{value}}</div>
+        {{/each-in}}
+      </div>
+    </:expandedView>
   </Row>
 </RoyalTable>

@@ -1,5 +1,5 @@
 import Controller from '@ember/controller';
-import { action, get } from '@ember/object';
+import { action, get, set } from '@ember/object';
 import { compare } from '@ember/utils';
 import { tracked } from '@glimmer/tracking';
 
@@ -109,5 +109,10 @@ export default class ApplicationController extends Controller {
     } else if (`${newSortingProp}:desc` === this.sortingProp) {
       this.sortingProp = `${newSortingProp}:asc`;
     }
+  }
+
+  @action
+  toggleValue(data, key) {
+    set(data, key, !get(data, key));
   }
 }
