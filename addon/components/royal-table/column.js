@@ -48,39 +48,4 @@ export default class RoyalTableColumnComponent extends Component {
       this.args.onSort(this.args.prop, this, e);
     }
   }
-
-  @action
-  initResize(e) {
-    e.preventDefault();
-    e.stopPropagation();
-
-    this.header = e.target.parentNode;
-    window.addEventListener('mousemove', this.resizing);
-    window.addEventListener('mouseup', this.resizeDone);
-  }
-
-  @action
-  resizing(e) {
-    e.preventDefault();
-    e.stopPropagation();
-
-    return requestAnimationFrame(() => {
-      const width =
-        document.documentElement.scrollLeft +
-        e.clientX -
-        this.header.offsetLeft;
-
-      this.header.style.width = width + 'px';
-    });
-  }
-
-  @action
-  resizeDone(e) {
-    e.preventDefault();
-    e.stopPropagation();
-
-    this.header = null;
-    window.removeEventListener('mousemove', this.resizing);
-    window.removeEventListener('mouseup', this.resizeDone);
-  }
 }

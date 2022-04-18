@@ -30,11 +30,6 @@
     {{else}}
       {{@name}}
     {{/if}}
-    {{!-- template-lint-disable no-down-event-binding --}}
-    <span
-      class="resize-handle"
-      {{on 'mousedown' this.initResize}}
-    ></span>
   </th>
 {{else if this.isBody}}
   <td align={{@align}} ...attributes>

@@ -4,7 +4,6 @@
 
 .royal-table {
   @apply border border-gray text-left;
-  table-layout: auto;
 
   thead {
     @apply bg-light;
@@ -13,34 +12,17 @@
       @apply border-b border-gray;
 
       th {
-        @apply px-4 py-4 text-dark font-normal whitespace-nowrap relative;
+        @apply px-4 py-4 text-dark font-normal whitespace-nowrap;
 
-        &:hover {
-          .resize-handle {
-            opacity: 0.3;
-          }
-        }
-
-        &[type='button'] {
+        &[type="button"] {
           @apply cursor-pointer select-none;
         }
 
         svg {
           width: 1em;
           height: 1em;
-          bottom: 0.1em;
+          bottom: .1em;
           position: relative;
-        }
-
-        .resize-handle {
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          background: black;
-          opacity: 0;
-          width: 3px;
-          cursor: col-resize;
         }
       }
     }
